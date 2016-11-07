@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.form</id>
+    <name>form</name>
+    <version>1.0</version>
+    <publisher>aniket</publisher>
+    <url/>
+    <description/>
+    <copyright>2016 by aniket</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>true</fullscreen>
+    <navbar-hidden>true</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>0b040cba-838a-4e59-9999-621c3da38c8b</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <property name="run-on-main-thread" type="bool">true</property>
+    <ios>
+        <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+        <use-app-thinning>true</use-app-thinning>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    <extensions>
+      <extension projectPath="extensions/form/form.xcodeproj">
+        <target name="form WatchKit Extension">
+          <provisioning-profiles>
+            <device/>
+            <dist-appstore/>
+            <dist-adhoc/>
+          </provisioning-profiles>
+        </target>
+        <target name="form WatchKit App">
+          <provisioning-profiles>
+            <device/>
+            <dist-appstore/>
+            <dist-adhoc/>
+          </provisioning-profiles>
+        </target>
+      </extension>
+    </extensions>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="ipad">true</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+        <target device="windows">false</target>
+    </deployment-targets>
+    <sdk-version>5.4.0.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+    <property name="appc-app-id" type="string">58200b0a9c107b6e630017f3</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">pzoDODXaRpfG5jKYZP6mkHbTmUb7WBSs</property>
+    <property name="acs-oauth-key-development" type="string">Z71dolk36ect3vRdY53R035sRtTabudL</property>
+    <property name="acs-api-key-development" type="string">zQLzfEwozlQXCovDnkIMIo1wSaASTupn</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">e80LvDoNwxeTtdpiQ8</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">wDCsL2NflneF3jLCRHSNO9uiykphqbLf</property>
+    <property name="acs-oauth-key-production" type="string">C8fg1tdMYqtYMVg6GdpRnsN8j1yjIyI2</property>
+    <property name="acs-api-key-production" type="string">qsW4LDLXLdvy505Iznw38N0mPcDmUtOI</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">T4qm6aZiv2eNyt5rol</property>
+    <property name="appc-org-id" type="string">100148506</property>
+    <property name="appc-creator-user-id" type="string">e78e4b41-fca0-4655-96b7-d97d917d99ae</property>
+</ti:app>

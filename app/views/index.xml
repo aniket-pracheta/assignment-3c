@@ -1,0 +1,54 @@
+<Alloy>
+	<Window class="container">
+<ScrollView class="bigview">
+	
+	<View class="smallview">
+		<Label class="lab">First Name:</Label>
+	    <TextField class="tex" id="first"></TextField>
+	    <Label id="err" class="error"></Label>
+	</View>  
+	
+	<View class="smallview">
+	     <Label class="lab" >Last Name</Label>	
+	     <TextField class="tex" id="last"></TextField>
+	     <Label id="errlast" class="error"></Label>
+	</View> 
+	
+	<View class="smallview">
+	      <Label class="lab">Phone no:</Label>
+	      <TextField class="tex" id="phone"></TextField>
+	      <Label id="errphone" class="error"></Label>
+	</View> 
+	
+	<View class="smallview">
+	     <Label class="lab">Email:</Label>
+	     <TextField class="tex" id="email"></TextField>
+	     <Label id="erremail" class="error"></Label>
+	</View> 
+	
+	<View class="smallview">
+	    <Label class="lab">password:</Label>
+	    <TextField class="tex" id="pass"></TextField>
+	    <Label id="errpass" class="error"></Label>
+	</View> 
+	
+	<View class="smallview">
+	   <Label class="lab">conf. password:</Label>
+	   <TextField class="tex" id="repass"></TextField>
+	    <Label id="errepass" class="error"></Label>
+	</View> 
+	
+	<View class="smallview">
+	        <Label class="lab">gender:</Label>
+					<Picker>
+                    <Column id="gen">
+                        <Row title="male"/>
+                        <Row title="female"/>
+                    </Column>
+                    </Picker>   
+      </View>                        
+      <Button id="sub" onClick="final">Submit</Button>   
+</ScrollView>
+
+	</Window>
+</Alloy>

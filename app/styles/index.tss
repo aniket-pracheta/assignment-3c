@@ -1,0 +1,65 @@
+".container": {
+	backgroundColor:"blue"
+},
+
+// "Label": {
+	// width: Ti.UI.SIZE,
+	// height: Ti.UI.SIZE,
+	// color: "#000"
+// },
+".lab":{
+	color:"black",
+	left:"10dp",
+	fontSize: "10",
+	width:"130dp"
+	
+},
+".tex":{
+	//right:"10dp",
+	//left:"dp",
+	width:Ti.UI.FILL,
+	height:"35",
+	color:"black",
+
+	
+},
+"#pass":{
+	passwordMask :true,
+},
+"#repass":{
+	passwordMask :true,
+},
+".smallview":{
+	layout:"horizontal",
+	width:Ti.UI.FILL,
+	height:40
+}
+".bigview":{
+	backgroundColor:"#2ECC71",
+	layout:"vertical",
+	top:30,
+},
+"Picker": {
+	top: 0,
+	left:"12",
+	width:"100dp",
+    backgroundColor:"#85C1E9",
+	selectionIndicator: true,
+	borderRadius:"10",
+	height:"40"
+	
+},
+"#sub":{
+	borderRadius:"40",
+	bottom:"0",
+	center:"0",
+	top:"80",
+	layout:"vertical",
+	height:"50"
+	//width:"25"
+},
+".error":{
+	color:"red",
+	width:Titanium.UI.FILL,
+	left:"150dp"
+}
